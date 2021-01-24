@@ -76,3 +76,9 @@ const clear = () => {
 }
 start.addEventListener('click', game)
 start.addEventListener('click', clear)
+
+const darkTheme = () => {
+    var dark = document.body;
+    dark.classList.toggle('dark-mode')
+
+}
